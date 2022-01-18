@@ -1,0 +1,175 @@
+@media only screen and (max-width:1160px)
+{
+  body{
+    width: fit-content;
+  }
+  .blogs{
+    height: 100%;
+  }
+.caption{
+margin: auto 0 auto 0;
+left: 7rem;
+text-align: left;
+width: 47%;
+}
+  .background{
+    background-position: center;
+}
+  .blog2{
+    margin: 1.8rem 1.8rem 0 1.8rem;
+  }
+  .leftsidemenu a{
+    padding: 0;
+    font-size: 1.7rem;
+  }
+  .rightside li{
+    font-size: 1.7rem;
+    margin-top: 0.1rem
+  }
+  .Gallery img {
+    margin-bottom: 4.5rem;
+    height: 31rem;
+    width: 38.8rem;
+}
+
+.caption .btn1, .caption .btn2{
+  width: 10rem;
+}
+.caption h1{
+  font-size: 4rem;
+}
+}
+
+@media only screen and (max-width:768px)
+{
+  html{
+    font-size: 42%;
+  }
+
+.leftside , .leftsidemenu , .rightside , .navbar{
+    flex-direction: column;
+    align-items: center;
+  }
+   .burger{
+     display: block;
+       top:2rem;
+   }
+   .leftsidemenu a{
+     margin-bottom: 2rem;
+     font-size: 2.7rem;
+
+   }
+   .leftsidemenu li{
+     margin-right: 0
+   }
+   .logo img{
+     margin-bottom: 2rem;
+   }
+   .rightside li{
+     font-size: 2.7rem;
+     margin-left: 2rem;
+   }
+   .rightside{
+     margin-bottom: 1rem;
+   }
+   .hnav{
+     height: 7.2rem;
+
+   }
+   .blog2{
+     margin: 1.8rem 1.8rem 0 1.8rem;
+   }
+   .form1 input{
+     width: 85%;
+   }
+   .container input{
+     width: 30%;
+   }
+   .vnav{
+     opacity: 0;
+   }
+   .caption .btn1 , .caption .btn2{
+        width: 15rem;
+        height: 5rem;
+   }
+   .divine{
+     height: 100%;
+   }
+.blogs{
+  height: 100%;
+}
+.gallery{
+  height: 100%;
+}
+
+   .contactus{
+     height: 100%;
+   }
+
+.blog1 , .blog2{
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blog1 img, .blog2 img {
+ height: 29rem;
+ width: 38rem;
+ position: relative;
+ bottom:3rem;
+margin-bottom: 2.5rem;
+}
+.item{
+  margin-bottom: 4rem;
+}
+.para h1 {
+    font-size: 2.6rem;
+    margin-left: 4.4rem;
+}
+.para1 h1 {
+    font-size: 2.6rem;
+    margin-left: 4.1rem;
+}
+
+.blog1 p , .blog2 p{
+  margin:2rem 0rem 0 3rem;
+  width: 94%;
+  font-size: 2.3rem;
+  line-height: 4.3rem;
+}
+
+.plans , .Gallery{
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.caption h1{
+  font-size: 4rem;
+}
+}
+@media only screen and (max-width:674px)
+{
+.caption h1{
+    font-size: 3rem;
+  }
+  .caption .btn1, .caption .btn2 {
+    width: 11rem;
+    height: 5rem;
+    padding: 0;
+}
+.caption{
+  left: 3rem;
+  width: 59%;
+}
+}
+
+@media only screen and (max-width:436px)
+  {
+.blog1 p, .blog2 p {
+    margin: 2rem 0rem 0 3rem;
+    width: 94%;
+    font-size: 1.8rem;
+    line-height: 3.8rem;
+}
+}
